@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_muti_project", "test_muti_project\test_muti_project.vcxproj", "{870EFD91-4D72-4ABE-A834-33F59FAE1429}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "callibrary", "callibrary\callibrary.vcxproj", "{64F461B0-6581-4723-A71D-C0876DD4D037}"
+	ProjectSection(ProjectDependencies) = postProject
+		{870EFD91-4D72-4ABE-A834-33F59FAE1429} = {870EFD91-4D72-4ABE-A834-33F59FAE1429}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870EFD91-4D72-4ABE-A834-33F59FAE1429}.Debug|Win32.ActiveCfg = Debug|Win32
+		{870EFD91-4D72-4ABE-A834-33F59FAE1429}.Debug|Win32.Build.0 = Debug|Win32
+		{870EFD91-4D72-4ABE-A834-33F59FAE1429}.Release|Win32.ActiveCfg = Release|Win32
+		{870EFD91-4D72-4ABE-A834-33F59FAE1429}.Release|Win32.Build.0 = Release|Win32
+		{64F461B0-6581-4723-A71D-C0876DD4D037}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64F461B0-6581-4723-A71D-C0876DD4D037}.Debug|Win32.Build.0 = Debug|Win32
+		{64F461B0-6581-4723-A71D-C0876DD4D037}.Release|Win32.ActiveCfg = Release|Win32
+		{64F461B0-6581-4723-A71D-C0876DD4D037}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
